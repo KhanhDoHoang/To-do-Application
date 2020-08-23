@@ -115,7 +115,7 @@ function getTodos() {
 
     //complete button//del button
     const completeButton = document.createElement("button");
-    completeButton.innerHTML = '<i class="fas fa-check" ></i>';
+    completeButton.innerHTML = '<i class="fas fa-check"></i>';
     completeButton.classList.add("complete-btn");
     todoDiv.appendChild(completeButton);
     //del button
